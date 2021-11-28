@@ -1,0 +1,18 @@
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.section-container > div {
+  flex: 1;
+  width: 100%;
+}
+
+@media (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .section-container {
+    flex-direction: column;
+  }
+}
